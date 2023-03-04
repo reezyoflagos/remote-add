@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: bisque;
+    padding: 20px;
+    .logo{
+        color: chocolate;
+        padding-right: 150px;
+        font-size: 20px;
+        
+    }
+    .hamburger{
+        padding-left: 10px;
+        font-size: 30px;
+    }
+
+}
+.main{
+    padding-left: 30px;
+    .text1{
+        margin-top: 20px;
+        font-size: 50px;
+        color: grey;
+    }
+    .text2{
+        margin-top: 20px;
+        font-size: 50px;
+        color: green;
+    }
+    .text3{
+        margin-top: 20px;
+        font-size: 24px;
+    }
+    button{
+        margin-top:20px;
+        padding: 10px 30px 10px 30px;
+        color: grey;
+        background-color:green;
+        border-radius: 20px;
+
+    }
+}
+
